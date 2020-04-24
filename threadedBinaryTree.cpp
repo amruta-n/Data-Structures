@@ -12,10 +12,11 @@ private:
 class TBT
 {
 public:
-    Node *root;
+    Node *root, *dummy;
     TBT()
     {
         root = NULL;
+        dummy = NULL;
     }
     void create(Node *root);
     void createTree(Node *root);
