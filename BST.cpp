@@ -246,21 +246,22 @@ void BST :: del()
         //Case4: Two children
         else if(temp->left != NULL && temp->right != NULL)
         {
-            Node *tl, *tr;
+            Node *tl, *tr, *t;
             tl = temp->left;
             tr = temp->right;
             while(tr->left!=NULL)
             {
                 tr = tr->left;
             }
-            tr->right = tl;
+            tr->left = tl;
+            t = temp->right;
             if(temp == par->left)
             {
-                par->left = tr;
+                par->left = t;
             }
             else if(temp == par->right)
             {
-                par->right = tr;
+                par->right = t;
             }
         }
         
