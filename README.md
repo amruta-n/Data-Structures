@@ -1,2 +1,3 @@
 # Data-Structures-II
-This repository contains Basic Data Structures Part-2
+This repository contains the following data structures:
+*Binary search tree
