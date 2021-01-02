@@ -5,3 +5,6 @@ This repository contains the following:
 * Prim's Algorithm
 * Heap Sort
 
+# Searching Algorithms
+* Linear Search
+* Binary Search
