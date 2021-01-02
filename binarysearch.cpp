@@ -4,7 +4,8 @@ Algorithm Logic:
 Assign beginning, middle and end element of array. If key==mid then return mid,
 if key <mid then search in first half by assigning mid-1 as end and calculate mid again.
 If key is in second half of the array then begining=mid+1 and repeat. Keep doing this till
-key is found or beg<=end. If not found return -1.*/
+key is found or beg<=end. If not found return -1.
+___NOTE___: It works only for sorted array*/
 
 //CODE
 #include<iostream>
