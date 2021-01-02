@@ -1,4 +1,4 @@
-# Data-Structures-II
+# Data-Structures
 This repository contains the following:
 * Binary search tree
 * Threaded Binary tree
