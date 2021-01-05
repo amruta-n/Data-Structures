@@ -10,4 +10,4 @@ This repository contains the following:
 * Binary Search
 
 # Sorting Algorithms
-* Insertin Sort
+* Insertion Sort
