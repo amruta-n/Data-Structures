@@ -8,3 +8,6 @@ This repository contains the following:
 # Searching Algorithms
 * Linear Search
 * Binary Search
+
+# Sorting Algorithms
+* Insertin Sort
